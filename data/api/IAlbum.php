@@ -12,8 +12,13 @@ interface IAlbum {
 
     /**
      * 获取相册列表
+     * @param number $page_index
+     * @param number $page_size
+     * @param string $condition
+     * @param string $order
+     * @param string $field
      */
-    function getAlbumClassList();
+    function getAlbumClassList($page_index = 1, $page_size = 0, $condition = '', $order = '', $field = '*');
 
     /**
      * 创建相册

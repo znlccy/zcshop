@@ -7,7 +7,8 @@
  * Comment: 管理员接口
  */
 namespace data\api;
+use data\api\IUser as IUser;
 
-interface IAdmin {
+interface IAdmin extends IUser {
 
 }
