@@ -8,6 +8,18 @@
  */
 namespace app\admin\controller;
 
-class Login extends BaseController {
+use think\Controller;
+
+class Login extends Controller {
+
+    /**
+     * @var 用户
+     */
+    public $user;
+
+    public $style;
+
+
+
 
 }

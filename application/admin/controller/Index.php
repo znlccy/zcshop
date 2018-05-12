@@ -10,4 +10,5 @@ namespace app\admin\controller;
 
 class Index extends BaseController {
 
+
 }
